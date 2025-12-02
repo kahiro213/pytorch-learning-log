@@ -22,3 +22,14 @@
 - Python 3.9
 - PyTorch 2.x
 - NumPy, matplotlib など
+
+
+# 01 - Tensors and Operations
+
+この章では、PyTorchにおけるテンソル操作の基礎を学びます。
+
+- テンソルの生成（zeros, ones, random, empty, arange）
+- NumPyとの相互変換
+- テンソルの形状変更（view, reshape, squeeze, unsqueeze）
+- 基本的な演算（加算、減算、掛け算、転置、行列積）
+- ブロードキャストの理解
