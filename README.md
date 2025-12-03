@@ -33,3 +33,13 @@
 - テンソルの形状変更（view, reshape, squeeze, unsqueeze）
 - 基本的な演算（加算、減算、掛け算、転置、行列積）
 - ブロードキャストの理解
+
+
+## 02. nn.Moduleとforwardの基本
+
+このセクションでは、PyTorchにおけるモデル定義の中心である `nn.Module` の使い方を学びます。
+
+- `nn.Module` とは何か？
+- `__init__` と `forward` の役割
+- 線形層を持つ簡単なモデルの構築
+- `model(x)` による推論の流れ
